@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  padding: 0px 4rem;
+}
+
+.page-footer {
+  background-color: #211a7e;
+}
+
+.page-footer .footer-copyright {
+  background-color: #0e095ab3;
+}
+
+.main {
+  min-height: calc(100vh - 64px - 183px);
+  padding: 1.4rem 1rem;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 25px;
+}
+
+p.card-description {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.35em;
+  color: #5b89b8;
+}
+
+.input-field {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.input-field button {
+  min-width: 142px;
+  height: 40px;
+  background: #a8d7e6;
+  border: none;
+  border-radius: 8px;
+}
+
+.label-radio {
+  margin-right: 30px;
+}
+
+a.active {
+  color: #b0afee;
+  text-decoration: underline;
+}
