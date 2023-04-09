@@ -35,11 +35,17 @@ nav {
   gap: 25px;
 }
 
+.movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+    
 p.card-description {
   display: flex;
   justify-content: space-between;
   font-size: 1.35em;
-  color: #5b89b8;
+  color: #5b898b;
 }
 
 .input-field {
@@ -47,8 +53,8 @@ p.card-description {
   gap: 30px;
   align-items: center;
 }
-
-.input-field button {
+  
+.input-field > button {
   min-width: 142px;
   height: 40px;
   background: #a8d7e6;
@@ -63,4 +69,8 @@ p.card-description {
 a.active {
   color: #b0afee;
   text-decoration: underline;
+}
+
+.card-image img {
+  height: 45vh;
 }

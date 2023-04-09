@@ -7,10 +7,10 @@ function Header() {
       <a href="#" className="brand-logo">Movies by Tanya</a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <NavLink to="#">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="#">About me</NavLink>
+            <NavLink to="/about">About me</NavLink>
           </li>
       </ul>
     </div>

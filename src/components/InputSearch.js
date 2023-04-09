@@ -14,13 +14,13 @@ const InputSearch = (props) => {
     const handleFilter = (e) => {
         setType(e.target.dataset.type)
     }
-    return <div classNameName="row">
-        <div classNameName="col s12">
-            <div classNameName="input-field">
+    return <div className="row">
+        <div className="col s12">
+            <div className="input-field">
                 <input
                     id="email_inline"
                     type="email"
-                    classNameName="validate"
+                    className="validate"
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                     onKeyDown={handleKey}
@@ -28,7 +28,7 @@ const InputSearch = (props) => {
                 </input>
                 <button onClick={() => props.searchMovies(search, type)}
                     type='button'
-                    classNameName="input-btn">search
+                    className="input-btn">search
                 </button>
             </div>
             <label className="label-radio">
