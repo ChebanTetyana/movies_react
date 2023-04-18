@@ -72,5 +72,5 @@ a.active {
 }
 
 .card-image img {
-  height: 45vh;
+  object-fit: cover;
 }
